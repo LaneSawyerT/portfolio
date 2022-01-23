@@ -220,6 +220,11 @@ a:visited {
     min-height: 195px;
 }
 
+.more-projects-img {
+    min-height: 170px;
+    justify-content: center;
+}
+
 /* About */
 .about-image {
     float: right;
@@ -231,29 +236,6 @@ a:visited {
     margin: 5px;
 }
 
-
-/*-------------------------------  Work History */
-
-.history-heading {
-    color: #fafafa;
-    margin-bottom: 50px;
-}
-
-.timeline-item {
-    padding: 4em 2em 0em 2em;
-    color: #fafafa;
-    border-left: 1px solid;
-}
-
-.timeline-item p {
-    padding: 0;
-    margin: 0;
-}
-
-
-.history-items {
-    margin-bottom: 30px;
-}
 
 /* Connect */
 .connect-card:hover {
@@ -316,4 +298,65 @@ a:visited {
 
 a:hover {
     color: #0e94d4;
+}
+
+.btn-link {
+    text-decoration: none !important;
+}
+
+
+/* Some Experience */
+.history-heading {
+    color: #fafafa;
+    margin-bottom: 50px;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #fafafa;
+}
+.history-items {
+    margin-bottom: 30px;
+    margin-left: 48%;
+}
+
+.experience-image {
+    margin-left: -135px;
+    position: absolute;
+}
+
+.content-heading {
+    margin-top: 2%;
 }
