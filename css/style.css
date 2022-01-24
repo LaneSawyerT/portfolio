@@ -1,3 +1,5 @@
+
+
 /* nav bars*/
 ol,
 ul {
@@ -110,10 +112,6 @@ body {
 
 }
 
-.vertical-center {
-    padding-top: 35vh;
-
-}
 .logo-text {
     font-family: 'Outfit', sans-serif;
     font-weight:bold;
@@ -129,21 +127,6 @@ body {
     transition: all 400ms;
 }
 
-/* Head Image */
-.typewrite {
-    color: white;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    text-shadow: 2px 2px #ff0000;
-    display: flex;
-    justify-content: center;
-}
-
-.head-image {
-    background-color: #f4a698;
-    padding-top: 5%;
-    height: 100vh;
-}
 
 /* About  */
 .about {
@@ -367,4 +350,25 @@ a:hover {
 .connect {
     background-color: #73a580;
     padding-bottom: 3%;
+}
+
+/* Head Image */
+.typewrite {
+    color: white;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #ff0000;
+    display: flex;
+    justify-content: center;
+}
+
+.vertical-center {
+    padding-top: 35vh !important;
+}
+
+
+.head-image {
+    background-color: #f4a698;
+    padding-top: 5%;
+    height: 100vh;
 }
