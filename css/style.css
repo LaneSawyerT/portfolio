@@ -27,6 +27,7 @@ body {
     background: #dd614a;
     display: flex;
     align-items: center;
+    z-index: 0;
 }
 
 .top_navbar .logo {
@@ -245,6 +246,8 @@ a:hover {
 /* Some Experience */
 .experience {
     background-color: #f48668;
+    z-index: -1;
+
 }
 
 .history-heading {
@@ -287,6 +290,7 @@ a:hover {
     border-radius: 12px;
     content: '';
     background: #fafafa;
+    
 }
 .history-items {
     margin-bottom: 30px;
